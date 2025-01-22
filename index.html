@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE</title>
+</head>
+<body>
+
+    <style>
+
+body {background-color: pink;}
+
+h1{background-color: lightpink; text-align: center; color: purple;}
+
+
+     </style>
+    
+    <div class="container">
+        
+   <script> 
+document.write("<h1>Compute the following given a=100 b=10<h1>");
+
+
+
+
+
+   </script>
+</div>
+
+<div class="container"> 
+
+    <script>
+var a,b, result, greater;
+a=100;
+b=10;
+result=a**b;
+greater=a>b;
+
+     </script>
+
+
+     <h1> Computation for 100 to the power of 10</h1>
+
+                <h1 id="answer1"> </h1>
+     <button type="button" onclick="document.getElementById('answer1') .innerHTML = 'Answer: ' + result; "> The answer </button>
+
+</div>
+
+<div>
+
+    <h1> Is A greater than B? </h1>
+
+     <p id="answer2"> </p>
+     <button type="button" class="btn btn-warning" onclick="document.getElementById('answer2') .innerHTML = '<h2>' + 'Answer is:' + greater; "> Show Answer </button>
+
+</div>
+
+<div>
+
+    <h1> Is this statement correct (a <= b) && (a >= b )? </h1>
+    
+        <script>       
+                    var a, b, result
+            a=100;
+            b=10;
+            Logic=(a <= b) && (a >= b);      
+        </script>
+
+        <p id="answer3"></p>
+        <button type="button" onclick="document.getElementById('answer3').innerHTML = 'Answer: ' + Logic;">
+            Show Answer
+        </button>
+
+    </div>
+</html>
